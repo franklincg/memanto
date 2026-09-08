@@ -88,6 +88,7 @@ def sample_memories() -> list[dict[str, Any]]:
             "content": "Always use Vitest for tests, never Jest.",
             "confidence": 0.95,
             "score": 0.9,
+            "provenance": "explicit_statement",
         },
         {
             "type": "decision",
